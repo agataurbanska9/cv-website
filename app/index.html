@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -21,18 +22,17 @@
         </button>
         <div class="navbar-collapse collapse" id="navbarCollapse" style>
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item mr-4">About</li>
-                <li class="nav-item mr-4">Portfolio</li>
-                <li class="nav-item mr-4">Contact</li>
+                <li><a class="nav-item mr-4" href="#">About</a></li>
+                <li><a class="nav-item mr-4" href="https://github.com/agataurbanska9" target="_blank">Portfolio</a></li>
+                <li><a class="nav-item mr-4" href="#">Contact</a></li>
             </ul>
         </div>
     </nav>
 </header>
-
 <main class="bg-gradient">
     <section>
         <div class="container main-section">
-            <h1>Hi, it is my CV-website</h1>
+            <h1 class="animate__animated animate__slideInDown">Hi, it is my CV-website</h1>
             <p class="text-right">Look around</p>
         </div>
     </section>
@@ -41,19 +41,25 @@
             <hr> <!--projects-->
             <div class="row">
                 <div class="col-md-4">
-                    <p><a href="#" target="_blank">To do</a></p>
-                    <p class="description">Editable task list</p>
-                    <p class="technology">REACT</p>
+                    <p><a href="#" target="_blank" class="project-name">To do</a></p>
+                    <div class="project-description animate__animated animate__slideInUp">
+                        <p class="description">Editable task list</p>
+                        <p class="technology">REACT</p>
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <p><a href="#" target="_blank">Color palette</a></p>
-                    <p class="description">Random color palette generator with an example of use on website</p>
-                    <p class="technology">REACT</p>
+                    <p><a href="#" target="_blank" class="project-name">Color palette</a></p>
+                    <div class="project-description animate__animated animate__slideInUp">
+                        <p class="description">Random color palette generator with an example of use on website</p>
+                        <p class="technology">REACT</p>
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <p><a href="#" target="_blank">This website</a></p>
-                    <p class="description">Simple CV website with projects</p>
-                    <p class="technology">Bootstrap4, HTML5, Responsive</p>
+                    <p><a href="#" target="_blank" class="project-name">This website</a></p>
+                    <div class="project-description animate__animated animate__slideInUp">
+                        <p class="description">Simple CV website with projects</p>
+                        <p class="technology">Bootstrap4, HTML5, Responsive</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -68,8 +74,6 @@
         </ul>
     </div>
 </footer>
-
-
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
