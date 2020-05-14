@@ -7,56 +7,72 @@
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <title>AU CV</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
 <header>
     <nav class="navbar navbar-expand-md fixed-top">
         <a class="navbar-brand">Agata Urbańska</a>
-
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls='navbarCollapse' aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></span>
         </button>
         <div class="navbar-collapse collapse" id="navbarCollapse" style>
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">About</li>
-                <li class="nav-item">Portfolio</li>
-                <li class="nav-item">Contact</li>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item mr-4">About</li>
+                <li class="nav-item mr-4">Portfolio</li>
+                <li class="nav-item mr-4">Contact</li>
             </ul>
         </div>
     </nav>
 </header>
 
-<main>
+<main class="bg-gradient">
     <section>
-        <div class="container">
+        <div class="container main-section">
             <h1>Hi, it is my CV-website</h1>
-            <p></p>
+            <p class="text-right">Look around</p>
         </div>
     </section>
-    <div class="album">
+    <div class="album py-4">
         <div class="container">
+            <hr> <!--projects-->
             <div class="row">
-                <div class="col-md-4">Project A</div>
-                <div class="col-md-4">Project B</div>
-                <div class="col-md-4">Project C</div>
+                <div class="col-md-4">
+                    <p><a href="#" target="_blank">To do</a></p>
+                    <p class="description">Editable task list</p>
+                    <p class="technology">REACT</p>
+                </div>
+                <div class="col-md-4">
+                    <p><a href="#" target="_blank">Color palette</a></p>
+                    <p class="description">Random color palette generator with an example of use on website</p>
+                    <p class="technology">REACT</p>
+                </div>
+                <div class="col-md-4">
+                    <p><a href="#" target="_blank">This website</a></p>
+                    <p class="description">Simple CV website with projects</p>
+                    <p class="technology">Bootstrap4, HTML5, Responsive</p>
+                </div>
             </div>
         </div>
     </div>
 </main>
 <footer>
     <div class="container">
-        <p>Contact</p>
         <ul class="footer-links">
             <li><a>agata.urbanska6@gmail.com</a></li>
             <li><a href="https://github.com/agataurbanska9" target="_blank">Github</a></li>
             <li><a href="https://www.linkedin.com/in/agata-urbanska/" target="_blank">LinkedIn</a></li>
         </ul>
     </div>
-
-
 </footer>
 
 
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

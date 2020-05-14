@@ -1,0 +1,49 @@
+body {
+    background: #17252a;
+    color: #def2f1;
+    font-family: 'DM Mono', monospace;
+
+}
+.navbar {
+    border-bottom: 1px solid #c5c6c7;
+}
+.navbar-toggler-icon {
+    color: #def2f1;
+    font-size: 1.5rem;
+}
+.nav-item:hover {
+    /*font-weight: 700;*/
+    color: #3aafa9;
+}
+.bg-gradient {
+    padding: 5rem 0;
+    background: rgb(23,37,42);
+    background: linear-gradient(180deg, rgba(23,37,42,1) 0%, rgba(34,81,86,1) 67%, rgba(43,114,120,1) 100%);
+}
+footer {
+    border-top: 1px solid #c5c6c7;
+}
+hr {
+    border: none;
+    border-top: 1px solid #def2f1;
+    overflow: visible;
+    text-align: center;
+    height: 2rem;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+hr:after {
+    content: 'PROJECTS';
+    padding: 0 4px;
+    position: relative;
+    top: 0.5rem;
+}
+.technology {
+    color: rgb(23,37,42);
+    text-shadow: 1px 1px 2px #3aafa9;
+}
+.footer-links {
+    list-style-type: none;
+    margin: 1rem 0;
+}
