@@ -32,9 +32,8 @@ main {
     color: #def2f1;
 }
 .nav-item:hover {
-    /*font-weight: 700;*/
     color: #3aafa9;
-    text-shadow: 1px 1px 2px #3aafa9;
+    text-shadow: 1px 1px 2px #225156;
     text-decoration: none;
 }
 .bg-gradient {
@@ -53,10 +52,10 @@ hr {
     height: 2rem;
     letter-spacing: 2px;
     font-size: 1.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 hr:after {
-    content: 'projects';
+    /*content: 'projects';*/
     padding: 0 4px;
     position: relative;
     top: 0.5rem;
@@ -77,4 +76,11 @@ hr:after {
     text-decoration: none;
     color: #0041ff;
     text-shadow: 1px 1px 2px #0041ff;
+}
+.main-section {
+    margin-top: 5rem;
+}
+.main-title {
+    color: rgb(23,37,42);
+    text-shadow: 1px 1px 2px #3aafa9;
 }
