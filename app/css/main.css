@@ -2,7 +2,6 @@ body {
     background: #17252a;
     color: #def2f1;
     font-family: 'DM Mono', monospace;
-
 }
 main {
     background: linear-gradient(-45deg, #17252a, #225156, #3aaea8, #3ac9c3);
@@ -20,7 +19,6 @@ main {
         background-position: 0% 50%;
     }
 }
-
 .navbar {
     border-bottom: 1px solid #c5c6c7;
 }
@@ -38,8 +36,6 @@ main {
 }
 .bg-gradient {
     padding: 5rem 0;
-    /*background: rgb(23,37,42);*/
-    /*background: linear-gradient(180deg, rgba(23,37,42,1) 0%, rgba(34,81,86,1) 67%, rgba(43,114,120,1) 100%);*/
 }
 footer {
     border-top: 1px solid #c5c6c7;
@@ -60,7 +56,7 @@ hr:after {
     position: relative;
     top: 0.5rem;
 }
-.technology {
+.technology , .main-title{
     color: rgb(23,37,42);
     text-shadow: 1px 1px 2px #3aafa9;
 }
@@ -70,17 +66,21 @@ hr:after {
 }
 .project-name {
     font-size: 1.2rem;
-    color: #0041ff;
+    color: #ff0051;
 }
 .project-name:hover {
     text-decoration: none;
-    color: #0041ff;
-    text-shadow: 1px 1px 2px #0041ff;
+    color: #ff0051;
+    text-shadow: 1px 1px 2px #ff0051;
 }
 .main-section {
     margin-top: 5rem;
 }
-.main-title {
-    color: rgb(23,37,42);
-    text-shadow: 1px 1px 2px #3aafa9;
+.cv-download {
+    color: #ff0051;
+}
+.cv-download:hover {
+    text-decoration: none;
+    color: #ff0051;
+    text-shadow: 1px 1px 2px #ff0051;
 }
