@@ -1,0 +1,24 @@
+{
+  "name": "cv-app",
+  "scripts": {
+    "start": "webpack-dev-server --hot -d",
+    "build": "webpack -p",
+    "rest": "json-server --watch --port=3001 ./3_Zadania_domowe/Dzien_4/database/users.json"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.6",
+    "babel-loader": "^8.1.0",
+    "json-server": "^0.16.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.9.4",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "whatwg-fetch": "^3.0.0"
+  }
+}

@@ -28,5 +28,6 @@ node_modules/
 .solution
 
 #webpack.config.js
-../test/package.json
-.babelrc
+#../test/package.json
+#package.json
+#.babelrc
