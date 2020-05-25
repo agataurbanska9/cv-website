@@ -1,8 +1,12 @@
 body {
     background: #17252a;
     color: #def2f1;
-    font-family: 'DM Mono', monospace;
+    font-family: 'Roboto', sans-serif;
 }
+
+/*font-family: 'Monoton', cursive;*/
+/*font-family: 'Roboto', sans-serif; 300/400*/
+
 main {
     background: linear-gradient(-45deg, #17252a, #225156, #3aaea8, #3ac9c3);
     background-size: 400% 400%;
@@ -20,7 +24,7 @@ main {
     }
 }
 .navbar {
-    border-bottom: 1px solid #c5c6c7;
+    border-bottom: 1px solid #def2f1;
 }
 .navbar-toggler-icon {
     color: #def2f1;
@@ -38,7 +42,7 @@ main {
     padding: 5rem 0;
 }
 footer {
-    border-top: 1px solid #c5c6c7;
+    border-top: 1px solid #def2f1;
 }
 hr {
     border: none;
@@ -64,23 +68,27 @@ hr:after {
     list-style-type: none;
     margin: 1rem 0;
 }
-.project-name {
+.pink-link {
     font-size: 1.2rem;
     color: #ff0051;
+    letter-spacing: 1px;
 }
-.project-name:hover {
+.pink-link:hover {
     text-decoration: none;
     color: #ff0051;
     text-shadow: 1px 1px 2px #ff0051;
 }
 .main-section {
     margin-top: 5rem;
+    letter-spacing: 5px;
+    font-weight: 300;
 }
-.cv-download {
-    color: #ff0051;
+.main-title {
+    font-weight: 400;
+    font-size: 2rem;
 }
-.cv-download:hover {
-    text-decoration: none;
-    color: #ff0051;
-    text-shadow: 1px 1px 2px #ff0051;
+.description {
+    letter-spacing: 2px;
+    font-weight: 300;
 }
+
