@@ -27,10 +27,6 @@ node_modules/
 .test/
 .solution
 
-webpack.config.js
-package.json
+#webpack.config.js
+../test/package.json
 .babelrc
-
-!2_Snippety/1_Konfiguracja_srodowiska/.babelrc
-!2_Snippety/1_Konfiguracja_srodowiska/.package.json
-!2_Snippety/1_Konfiguracja_srodowiska/.webpack.config.js
